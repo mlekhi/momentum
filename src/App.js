@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Menu from './components/Menu';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div
+      style={{ background: 'linear-gradient(to right, #273B4D, #091322)' }}
+    >
+      <Menu />
+      <div className="flex justify-center items-center h-screen"
+      >
+        <p className="text-3xl font-bold text-white">Momentum</p>
+      </div>
+    </div>
+      <p>Momentum is a co-working community bringing together Western University’s builders, creatives, technologists, designers, researchers, budding founders, and more to work on their passion projects. Our goal is to foster a space that for people to connect over their interests, work together, and remain accountable & dedicated to work they care about. (Note: no schoolwork allowed at our sessions!)</p>
+      <a>Give us a follow!</a>
+      <Footer />
     </div>
   );
 }
