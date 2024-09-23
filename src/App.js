@@ -5,8 +5,10 @@ import Footer from './components/Footer';
 function App() {
   const stars = [
     { left: '10%', top: '30%', rotation: 15 },
-    // { left: '40%', top: '10%', rotation: 0 },
-    { left: '30%', top: '50%', rotation: -30 },
+    { left: '60%', top: '10%', rotation: 0 },
+    { left: '0%', top: '85%', rotation: 0 },
+    { left: '98%', top: '25%', rotation: 0 },
+    { left: '30%', top: '53%', rotation: -30 },
     { left: '90%', top: '70%', rotation: 45 },
     { left: '50%', top: '80%', rotation: 90 },
     { left: '60%', top: '40%', rotation: -15 },
