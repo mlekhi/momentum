@@ -44,7 +44,7 @@ function App() {
           their interests, work together, and remain accountable & dedicated to work they care
           about.
         </p>
-        <h2 className="text-3xl font-bold">No schoolwork allowed.</h2>
+        <h2 className="text-3xl font-bold">no schoolwork allowed</h2>
       </div>
       <Footer />
     </div>
