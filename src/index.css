@@ -1,14 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&family=DM+Serif+Display&family=Noto+Sans&display=swap');
+
 body {
-  font-family: 'Chonburi', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
+h1 {
+  font-family: 'Chonburi', sans-serif;
+}
+
+h2 {
+  font-family: 'DM Serif Display', serif;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
