@@ -4,7 +4,7 @@ const Menu = () => {
   return (
     <nav className="flex items-center justify-between p-4 text-white">
       <div className="text-sm font-bold">
-        Momentum
+        momentum
       </div>
       <div className="flex space-x-4">
         <a href="/calendar" className="hover:text-gray-300 text-sm">
