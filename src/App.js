@@ -43,7 +43,6 @@ function App() {
           about.
         </p>
         <h2 className="text-3xl font-bold">No schoolwork allowed.</h2>
-        <a>Give us a follow!</a>
       </div>
       <Footer />
     </div>

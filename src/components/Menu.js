@@ -7,8 +7,8 @@ const Menu = () => {
         <a href="/"><h1>momentum</h1></a>
       </div>
       <div className="flex space-x-4">
-        <a href="/calendar" className="hover:text-gray-300 text-sm">
-          Calendar
+        <a href="https://lu.ma/moment.um" className="hover:text-gray-300 text-sm">
+          Join Us
         </a>
         <a href="/contribute" className="hover:text-gray-300 text-sm">
           Contribute
