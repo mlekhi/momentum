@@ -59,7 +59,7 @@ function App() {
           </div>
           <img
             src="shootingStar.webp"
-            className="absolute left-30 top-20 w-40 h-28"
+            className="absolute right-10 top-0 w-40 h-28"
           />
         </div>
         <div
