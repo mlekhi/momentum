@@ -40,37 +40,62 @@ function App() {
         </div>
       </div>
       <div className="justify-center items-center p-20">
-      <div className="relative flex justify-center items-center h-screen">
-        <p>
-          We host weekly co-working sessions for you to work on your passion
-          projects with likeminded people.
-        </p>
-        <h2 className="text-3xl font-bold text-black text-opacity-50">
-          Explore your curiosity.
-        </h2>
-      </div>
-        <div className="relative flex justify-center items-center h-screen">
-          <h2 className="text-3xl font-bold text-black text-opacity-50">
-            No schoolwork allowed.
-          </h2>
-          <p>
-            Momentum is a co-working community of builders, creatives,
-            technologists, designers, researchers, founders, and more to dive
-            into their passion projects through sessions in London.
-          </p>
-          <h2 className="text-3xl font-bold text-black text-opacity-50">
-            Intros + two work blocks + casual open demos
-          </h2>
+<div className="relative flex items-center" style={{ height: '50vh' }}>
+          <div className="z-10">
+            <h2 className="text-3xl text-black text-opacity-50">
+              explore your curiosity.
+            </h2>
+            <p className="mt-5 mb-5">
+              We host weekly co-working sessions for you to work on your passion
+              projects with likeminded people.
+            </p>
+            <a
+              href="https://lu.ma/moment.um"
+              className="bg-black text-white py-1.5 px-3.5 rounded-full shadow-md hover:bg-opacity-65 transition duration-300 ease-in-out"
+              style={{ fontFamily: "DM Serif Display, serif" }}
+            >
+              Attend a Session
+            </a>
+          </div>
+          <img
+            src="shootingStar.webp"
+            className="absolute left-30 top-20 w-40 h-28"
+          />
         </div>
-        <div className="relative flex justify-center items-center h-screen">
-        <h2 className="text-3xl font-bold text-black text-opacity-50">
-          You belong here.
-        </h2>
-        <div>
-          <h2>That project you keep putting off... </h2>
-          <h2>the idea that feels just out of reach... </h2>
-          <h2>big or small, now’s the time.</h2>
+        <div
+          className="relative flex items-center"
+          style={{ height: "50vh" }}
+        >
+          <div className="z-10">
+            <h2 className="text-3xl text-black text-opacity-50">
+              No schoolwork allowed.
+            </h2>
+            <p className="mt-5 mb-5">
+              Momentum is a co-working community of builders, creatives,
+              technologists, designers, researchers, founders, and more to dive
+              into their passion projects through sessions in London.
+            </p>
+            <h2 className="text-3xl text-black text-opacity-50">
+              Intros + two work blocks + casual open demos
+            </h2>
+          </div>
         </div>
+        <div
+          className="relative flex items-center"
+          style={{ height: "50vh" }}
+        >         
+          <div className="z-10">
+            <h2 className="text-3xl text-black text-opacity-50">
+              You belong here.
+            </h2>
+            <p>That project you keep putting off... </p>
+            <p>the idea that feels just out of reach... </p>
+            <p>big or small, now’s the time.</p>
+          </div>
+          <img
+        src="shootingStar2.webp"
+        className="right-100 w-60 h-60"
+      />
         </div>
       </div>
       <Footer />
