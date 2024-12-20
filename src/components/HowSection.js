@@ -50,7 +50,7 @@ const HowSection = () => {
           <p className="mt-5 mb-5 text-gray-700 text-xl font-bold">
             50 minutes of <Popup message="*NO school or job work is allowed! There are other co-working spaces that exist for studying, working, etc. This space is not one of them. We do this to encourage our members to show up for themselves and pursue what they don’t make time for." /> time.
           </p>
-          <p className="mt-5 mb-5 text-gray-700 text-xl font-bold">Demos to wrap up</p>
+          <p className="mt-5 mb-5 text-gray-700 text-xl font-bold">Demos to wrap up!</p>
         </div>
       </div>
     </div>

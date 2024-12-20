@@ -3,10 +3,10 @@ import React from "react";
 // Dummy JSON data
 const dummyData = [
   { message: "XYZ is making groundbreaking technology" },
-  { message: "XYZ is building innovative solutions" },
+  { message: "Maya is developing mobile games about her pet dog." },
   { message: "XYZ is shaping the future of AI" },
   { message: "XYZ is revolutionizing the fintech industry" },
-  { message: "XYZ is solving problems with data" },
+  { message: "Daniel is writing a blog about startups & developments in climate tech." },
   { message: "XYZ is leading advancements in renewable energy" },
   { message: "XYZ is improving healthcare with technology" },
 ];
@@ -35,7 +35,7 @@ const ScrollableBanner = () => {
           .scroll-text {
             display: inline-block;
             white-space: nowrap;
-            animation: scroll 15s linear infinite;
+            animation: scroll 30s linear infinite;
           }
           @keyframes scroll {
             0% {
