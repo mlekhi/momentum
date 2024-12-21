@@ -10,8 +10,8 @@ const ExploreCuriositySection = () => {
         className="relative flex flex-col md:flex-row items-center justify-between"
         style={{ maxWidth: "900px", width: "100%", padding: "20px" }}
       >
-        <div className="text-center md:text-left" style={{ maxWidth: "450px" }}>
-          <span>
+        <div className="text-center md:text-left max-w-[350px] md:max-w-[450px]">
+            <span>
             <span className="header text-3xl md:text-4xl">
               explore your&nbsp;
             </span>
