@@ -3,7 +3,7 @@ import React from "react";
 const ExploreCuriositySection = () => {
   return (
     <div
-      className="flex justify-center items-center"
+      className="flex justify-center items-center px-4"
       style={{ height: "80vh", backgroundColor: "#E1F3FF" }}
     >
       <div
@@ -12,16 +12,20 @@ const ExploreCuriositySection = () => {
       >
         <div className="text-center md:text-left" style={{ maxWidth: "450px" }}>
           <span>
-            <span className="header text-4xl font-bold">explore your&nbsp;</span>
-            <i className="italic-header text-4xl font-bold italic">curiosity.</i>
+            <span className="header text-3xl md:text-4xl">
+              explore your&nbsp;
+            </span>
+            <i className="italic-header text-3xl md:text-4xl italic">
+              curiosity.
+            </i>
           </span>
-          <p className="mt-5 mb-5 text-gray-700">
-            We host weekly co-working sessions for you to work on your passion projects with
-            likeminded people.
+          <p className="mt-4 md:mt-5 mb-4 md:mb-5 text-gray-700 text-sm md:text-base">
+            We host weekly co-working sessions for you to work on your passion
+            projects with likeminded people.
           </p>
           <a
             href="https://lu.ma/moment.um"
-            className="bg-black text-white py-2 px-4 rounded-full shadow-md hover:bg-opacity-80 transition duration-300 ease-in-out inline-block"
+            className="bg-black text-white py-2 px-4 text-sm md:text-base rounded-full shadow-md hover:bg-opacity-80 transition duration-300 ease-in-out inline-block"
           >
             Attend a Session
           </a>
@@ -30,7 +34,7 @@ const ExploreCuriositySection = () => {
         <img
           src="compass.png"
           alt="Compass"
-          className="h-80 w-80 mt-6 md:mt-0"
+          className="h-48 w-48 md:h-80 md:w-80 mt-6 md:mt-0"
           style={{ objectFit: "contain" }}
         />
       </div>

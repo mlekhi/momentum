@@ -8,6 +8,21 @@ import ScrollableBanner from "./components/ScrollableBanner";
 import { useState, useEffect } from "react";
 
 function App() {
+  
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); 
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
     <div className="App">
@@ -16,7 +31,7 @@ function App() {
       <ScrollableBanner />
       <CommunitySection />
       <div style={{ backgroundColor: "#FFF8E1" }}>
-      <img src="banner.png"/>
+      <img src={isMobile ? "banner2.png" : "banner.png"} alt="Banner" />
       </div>
       <CalltoActionSection/>
       <Footer />

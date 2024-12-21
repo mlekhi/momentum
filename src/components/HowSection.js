@@ -30,7 +30,7 @@ const HowSection = () => {
   return (
     <div
       className="flex items-center justify-center"
-      style={{ height: "80vh", backgroundColor: "#FFF8E1" }}
+      style={{ height: "60vh", backgroundColor: "#FFF8E1" }}
     >
       <div
         className="relative flex justify-end"
@@ -39,18 +39,19 @@ const HowSection = () => {
         <img
           src="socraticaStars.png"
           alt="Socratica"
-          style={{ position: "absolute", right: "40%", top: "-90%" }}
+          className="absolute right-[40%] top-[-60%]"
         />
 
-        <div className="text-right md:text-left" style={{ width: "300px" }}>
-          <p className="mt-5 mb-5 text-gray-700 text-xl font-bold">
+        <div className="text-right md:text-left pr-7 w-[300px] md:text-xl text-lg ">
+          <h2 className="header text-3xl md:text-4xl">how it works...</h2>
+          <p className="mt-5 mb-5 text-gray-700">
             50 minutes of <Popup message="*NO school or job work is allowed! There are other co-working spaces that exist for studying, working, etc. This space is not one of them. We do this to encourage our members to show up for themselves and pursue what they don’t make time for." /> time.
           </p>
-          <p className="mt-5 mb-5 text-gray-700 text-xl font-bold">10 minute break.</p>
-          <p className="mt-5 mb-5 text-gray-700 text-xl font-bold">
+          <p className="mt-5 mb-5 text-gray-700">10 minute break.</p>
+          <p className="mt-5 mb-5 text-gray-700">
             50 minutes of <Popup message="*NO school or job work is allowed! There are other co-working spaces that exist for studying, working, etc. This space is not one of them. We do this to encourage our members to show up for themselves and pursue what they don’t make time for." /> time.
           </p>
-          <p className="mt-5 mb-5 text-gray-700 text-xl font-bold">Demos to wrap up!</p>
+          <p className="mt-5 mb-5 text-gray-700">Demos to wrap up!</p>
         </div>
       </div>
     </div>
@@ -58,3 +59,5 @@ const HowSection = () => {
 };
 
 export default HowSection;
+
+

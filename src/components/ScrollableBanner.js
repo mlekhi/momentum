@@ -17,9 +17,9 @@ const ScrollableBanner = () => {
     .join(" • ");
 
   return (
-    <div className="w-full h-14 overflow-hidden bg-gray-800 flex items-center">
+    <div className="w-full h-12 md:h-14 overflow-hidden bg-gray-800 flex items-center">
       <div className="scroll-container flex whitespace-nowrap">
-        <div className="scroll-text text-white text-xl font-semibold">
+        <div className="scroll-text text-white md:text-xl font-semibold">
           {scrollingText} • {scrollingText}
         </div>
       </div>
