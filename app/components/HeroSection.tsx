@@ -36,7 +36,7 @@ const HeroSection: React.FC = () => {
           <p className="text-sm md:text-lg text-center">
             come create with us.{" "}
             <Link href="https://lu.ma/moment.um" className="underline">
-              Sundays at noon in London, Ontario.
+              sundays at noon in london, ontario.
             </Link>
           </p>
         </div>
