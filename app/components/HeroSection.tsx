@@ -5,6 +5,7 @@ import Menu from "./Menu";
 import { StarsBackground } from "./ui/StarsBackground";
 import { ShootingStars } from "./ui/ShootingStars";
 import Head from "next/head";
+import Link from "next/link";
 
 const HeroSection: React.FC = () => {
   return (
@@ -34,9 +35,9 @@ const HeroSection: React.FC = () => {
           </h1>
           <p className="text-sm md:text-lg text-center">
             come create with us.{" "}
-            <a href="https://lu.ma/moment.um" className="underline">
+            <Link href="https://lu.ma/moment.um" className="underline">
               Sundays at noon in London, Ontario.
-            </a>
+            </Link>
           </p>
         </div>
 

@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const ExploreCuriositySection: React.FC = () => {
   return (
@@ -26,12 +27,12 @@ const ExploreCuriositySection: React.FC = () => {
             we host weekly co-working sessions for you to work on your passion
             projects with likeminded people.
           </p>
-          <a
+          <Link
             href="https://lu.ma/moment.um"
             className="bg-black text-white py-2 px-4 text-sm md:text-base rounded-full shadow-md hover:bg-opacity-80 transition duration-300 ease-in-out inline-block"
           >
             Attend a Session
-          </a>
+          </Link>
         </div>
 
         <Image

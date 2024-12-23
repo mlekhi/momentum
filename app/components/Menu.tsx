@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Head from "next/head";
+import Link from "next/link";
 
 const Menu: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,9 +21,9 @@ const Menu: React.FC = () => {
       </Head>
       <nav className="flex items-center justify-between px-4 lg:px-20 py-5 relative">
         <div className="text-lg">
-          <a href="/">
+          <Link href="/">
             <h1>momentum</h1>
-          </a>
+          </Link>
         </div>
 
         <button onClick={toggleMenu} className="block focus:outline-none">
@@ -39,18 +40,18 @@ const Menu: React.FC = () => {
           }`}
         >
           <div className="flex flex-col items-end bg-amber-50">
-            <a
+            <Link
               href="https://lu.ma/moment.um"
               className="block px-4 py-2 hover:text-gray-300 text-gray-700 font-bold"
             >
               Attend
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://buymeacoffee.com/moment.um"
               className="block px-4 py-2 hover:text-gray-300 text-gray-700 font-bold"
             >
               Contribute
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

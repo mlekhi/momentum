@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 
 const ActionSection: React.FC = () => {
   const backgroundText = [
@@ -34,12 +35,12 @@ const ActionSection: React.FC = () => {
             you <i className="header-italic">belong</i> here.
           </span>
           <p className="mt-5">
-            <a
+            <Link
               href="https://lu.ma/moment.um"
               className="bg-black text-white py-2 px-4 rounded-full shadow-md hover:bg-opacity-80 transition duration-300 text-sm md:text-base"
             >
               Attend a Session
-            </a>
+            </Link>
           </p>
         </div>
       </div>
