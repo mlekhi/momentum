@@ -7,9 +7,10 @@ import Head from "next/head";
 const dummyData = [
   { message: "Atnasia is building @nasiacooks, into a gut-friendly food platform on Instagram." },
   { message: "Maya is developing Yaps: a mobile game about her pet dog." },
-  { message: "Robin is developing a machine learning research paper club and building his own series of models." },
+  { message: "Robin is developing a machine learning research paper club and building his own series of video generation models." },
   { message: "Daniel is writing a blog about startups & developments in climate tech." },
   { message: "Arianna is writing poetry to compile and publish a collection." },
+  { message: "Vincent is working on @in.intuition, a personal blog at the intersection of technology, philosophical musings, and the self." },
 ];
 
 const ScrollableBanner: React.FC = () => {
