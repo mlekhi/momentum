@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-start w-full">
           <div className="mb-4 md:mb-0">
             <Link
-              href="https://lu.ma/moment.um"
+              href="https://lu.ma/moment.um?utm_source=landing-page"
               className="text-sm hover:text-gray-500 block"
             >
               Join Us

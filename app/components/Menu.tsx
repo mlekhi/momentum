@@ -41,7 +41,7 @@ const Menu: React.FC = () => {
         >
           <div className="flex flex-col items-end bg-amber-50">
             <Link
-              href="https://lu.ma/moment.um"
+              href="https://lu.ma/moment.um?utm_source=landing-page"
               className="block px-4 py-2 hover:text-gray-300 text-gray-700 font-bold"
             >
               Attend
