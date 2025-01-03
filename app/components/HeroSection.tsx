@@ -6,6 +6,7 @@ import { StarsBackground } from "./ui/StarsBackground";
 import { ShootingStars } from "./ui/ShootingStars";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 const HeroSection: React.FC = () => {
   return (
@@ -41,19 +42,25 @@ const HeroSection: React.FC = () => {
           </p>
         </div>
 
-        <img
+        <Image
           src="/decals/decal1.png"
-          className="w-16 h-16 md:w-32 md:h-32 absolute top-[80px] right-[100px] z--1"
+          width={128} 
+          height={128}
+          className="absolute top-[80px] right-[100px] z-10"
           alt="Decorative decal 1"
         />
-        <img
+        <Image
           src="/decals/decal2.png"
-          className="w-16 h-16 md:w-32 md:h-32 absolute top-[200px] left-[80px] z--1"
+          width={128} 
+          height={128}
+          className="absolute top-[200px] left-[80px] z-10"
           alt="Decorative decal 2"
         />
-        <img
+        <Image
           src="/decals/decal3.png"
-          className="w-16 h-16 md:w-32 md:h-32 absolute bottom-[180px] right-[200px] z--1"
+          width={128}
+          height={128}
+          className="absolute bottom-[180px] right-[200px] z-10"
           alt="Decorative decal 3"
         />
       </div>
