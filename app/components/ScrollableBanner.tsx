@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useMemo } from "react";
 import Head from "next/head";
 
 // Dummy JSON data
@@ -14,12 +14,24 @@ const dummyData = [
   { message: "Vincent is working on @in.intuition, a personal blog at the intersection of technology, philosophical musings, and the self." },
 ];
 
+// Function to shuffle an array
+const shuffleArray = (array: any[]) => {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  console.log(shuffled);
+  return shuffled;
+};
+
 const ScrollableBanner: React.FC = () => {
-  const scrollingText = dummyData.map((item) => item.message).join(" • ");
+  const shuffledData = useMemo(() => shuffleArray(dummyData), []);
+  const scrollingText = shuffledData.map((item) => item.message).join(" • ");
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    itemListElement: dummyData.map((item, index) => ({
+    itemListElement: shuffledData.map((item, index) => ({
       "@type": "ListItem",
       position: index + 1,
       name: item.message,
