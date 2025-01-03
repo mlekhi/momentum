@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Head from "next/head";
+import Image from "next/image";
 
 interface PopupProps {
   message: string;
@@ -51,9 +52,11 @@ const HowSection: React.FC = () => {
           className="relative flex justify-end"
           style={{ maxWidth: "900px", width: "100%" }}
         >
-          <img
+          <Image
             src="/socraticaStars.png"
             alt="Socratica"
+            width={900}
+            height={900}       
             className="absolute right-[40%] top-[-60%]"
           />
 
