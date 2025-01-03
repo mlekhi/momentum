@@ -10,6 +10,7 @@ const dummyData = [
   { message: "Robin is developing a machine learning research paper club and building his own series of video generation models." },
   { message: "Daniel is writing a blog about startups & developments in climate tech." },
   { message: "Arianna is writing poetry to compile and publish a collection." },
+  { message: "Xander is building Hollo, an aesthetic holographic display device that you can talk to and interact with." },
   { message: "Vincent is working on @in.intuition, a personal blog at the intersection of technology, philosophical musings, and the self." },
 ];
 
