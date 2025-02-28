@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     url: "https://momentum.place",
     images: [
       {
-        url: "/og-image.png", // Replace with your Open Graph image
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Momentum Co-Working Sessions",
@@ -45,8 +45,13 @@ export const metadata: Metadata = {
     title: "Momentum - Co-Working Sessions",
     description:
       "Momentum is a co-working community in London, Ontario. Join us Sundays at noon to collaborate and create.",
-    images: ["/og-image.png"], // Replace with your Open Graph image
+    images: ["/og-image.png"],
   },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
@@ -56,24 +61,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <link
-          rel="manifest"
-          href="/site.webmanifest"
-        /> {/* Optional for PWA support */}
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="author" content="Momentum Team" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://momentum.place"
-        /> {/* Replace with your site URL */}
-      </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
